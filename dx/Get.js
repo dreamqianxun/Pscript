@@ -8,6 +8,7 @@ hostname=czapp.bestpay.com.cn
 * */
 
 const $ = new Env('中国电信获取body');
+console.log($.read('Bodyswitch'))
 const effective = $request.body.indexOf("BILLCYCLE")
 let loginerror=$.read('Bodyswitch')
 
