@@ -30,7 +30,7 @@ async function GetBody() {
         }   
 
 }
-congsole.log($.read('Bodyswitch'))
+console.log($.read('Bodyswitch'))
 
 function Env(name) {
   LN = typeof $loon != `undefined`
