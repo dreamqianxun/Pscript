@@ -30,7 +30,7 @@ async function GetBody() {
         }   
 
 }
-
+congsole.log($)
 
 function Env(name) {
   LN = typeof $loon != `undefined`
